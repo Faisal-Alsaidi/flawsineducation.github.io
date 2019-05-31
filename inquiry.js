@@ -1,4 +1,4 @@
-function home(){
+/*function home(){
 	var title = document.getElementsByClassName("title")[0];
 	var text = document.getElementsByClassName("text")[0];
 	var citation = document.getElementsByClassName("citation-text")[0];
@@ -18,4 +18,4 @@ function current_sys(){
 
 window.onload = function(){
 	home();
-}
+}*/
