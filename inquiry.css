@@ -73,25 +73,13 @@ body{
 .nav{
 	display: inline-block;
 	text-align: center;
+	text-decoration: none;
+	color: black;
+	transition: color 0.15s linear;
 }
 
 .nav:hover{
 	cursor: pointer;
-}
-
-.home:hover{
-	color: #dddd00;
-}
-
-.current-sys:hover{
-	color: #dddd00;
-}
-
-.flaws:hover{
-	color: #dddd00;
-}
-
-.solutions:hover{
 	color: #dddd00;
 }
 
@@ -120,7 +108,7 @@ body{
 	box-shadow: 2px 2px 2px grey;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
 	.content{
 		margin-left: 2%;
 		left: default;
