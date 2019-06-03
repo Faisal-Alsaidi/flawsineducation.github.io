@@ -63,9 +63,8 @@ body{
 	width: 45%;
 	height: 100%;
 	float: right;
-	top: -130%;
+	top: -150%;
 	display: grid;
-	grid-template-areas: "home current-sys flaws solutions";
 	grid-template-rows: 100%;
 	grid-template-columns: repeat(4,auto);
 }
@@ -73,9 +72,21 @@ body{
 .nav{
 	display: inline-block;
 	text-align: center;
+	vertical-align: middle;
 	text-decoration: none;
 	color: black;
 	transition: color 0.15s linear;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+@media only screen and (max-width: 650px){
+	.nav{
+		font-size: 75%;
+	}
 }
 
 .nav:hover{
