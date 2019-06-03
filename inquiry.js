@@ -5,7 +5,7 @@ function msieversion() {
 
     if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
     {
-        alert("Please stop using Internet Explorer it's a literal flaming pile of absolute shit");
+        alert("Please stop using Internet Explorer it's a nightmare to work with and doesn't know how to be a browser");
     }
     else  // If another browser, return 0
     {
