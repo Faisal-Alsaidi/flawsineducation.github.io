@@ -19,8 +19,8 @@ body{
 	border-bottom: 1px solid black;
 	display: grid;
 	display: -ms-grid;
-	grid-template-columns: 10% 50% 40%;
-	-ms-grid-columns: 10% 50% 40%;
+	grid-template-columns: 10% 40% 50%;
+	-ms-grid-columns: 10% 40% 50%;
 	grid-template-rows: 100%;
 	-ms-grid-rows: 100%;
 	grid-template-areas: "icon name nav";
@@ -54,13 +54,13 @@ body{
 
 @media only screen and (max-width: 600px){
 	.name{
-		font-size: 70%;
+		font-size: 60%;
 	}
 }
 
 @media only screen and (max-width: 400px){
 	.name{
-		font-size: 55%;
+		font-size: 50%;
 	}
 }
 
@@ -74,16 +74,14 @@ body{
 	display: -ms-grid;
 	grid-template-rows: 100%;
 	-ms-grid-rows: 100%;
-	-ms-grid-columns: 25% 25% 25% 25%;
-	grid-template-columns: repeat(4,auto);
-	grid-column-gap: 2%;
+	-ms-grid-columns: 20% 20% 20% 20% 20%;
+	grid-template-columns: repeat(5,auto);
 
 }
 
 @media only screen and (max-width: 400px){
 	.nav-drop-downs{
 		right: 5%;
-		grid-column-gap: 2%;
 	}
 }
 
@@ -182,6 +180,29 @@ body{
 	font-size: 80%;
 }
 
+.read-more{
+	font-size: 90%;
+	text-decoration: none;
+	transition: color 0.2s linear;
+}
+
+.read-more:hover{
+	color: #9400D3;
+	text-decoration: underline;
+}
+
+.back{
+	font-size: 80%;
+	text-decoration: none;
+	transition: color 0.1s linear;
+	float: right;
+}
+
+.back:hover{
+	color: #9400D3;
+	text-decoration: underline;
+}
+
 .citation{
 	position: absolute;
 	right: 0;
@@ -200,4 +221,8 @@ body{
 	margin-top: 7%;
 	width: 80%;
 	overflow-wrap: break-word;
+}
+
+.work-cited{
+	font-size: 75%;
 }
